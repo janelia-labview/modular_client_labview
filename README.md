@@ -1,4 +1,4 @@
-#modular_device_labview
+#modular_client_labview
 
 Authors:
 
