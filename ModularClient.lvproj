@@ -25,7 +25,7 @@
 		<Item Name="SubVIs" Type="Folder" URL="../SubVIs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="ModularDevice.vi" Type="VI" URL="../ModularDevice.vi"/>
+		<Item Name="ModularClient.vi" Type="VI" URL="../ModularClient.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
@@ -63,7 +63,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{494CE61F-B283-4A9C-B7E0-4A8CCE9627E8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ModularDevice.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ModularClient.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
